@@ -15,7 +15,6 @@ module.exports = {
     port: consts.PORT
   },
   entry: [
-    'webpack-dev-server/client?http://localhost:81',
     'webpack/hot/only-dev-server',
     path.resolve(consts.ENTRY)
   ],

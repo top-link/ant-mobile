@@ -1,8 +1,29 @@
-## 提示
-官方刚刚发布新版本，这几天会更新此项目。
+## 项目结构
 
-## 下个版本的更新点
-1. antd-mobile 升级到 1.0 版本；
-2. webpack 升级到 2 版本；
-3. 整个框架的目录结构介绍；
-4. 高清方案的详细介绍；
+```
+.
+├─src
+|  ├─app                         // 项目截图
+|  |  ├─dashboard
+|  |  |    ├─assets         // 模块资源
+|  |  |    ├─theme          // 主题
+|  |  |    └─index.js
+|  ├─redux
+|  |    ├─action
+|  |    ├─const
+|  |    ├─models
+|  |    ├─reducers
+|  |    └─store
+|  ├─routes
+|  |    └─index.js  
+|  ├─template
+|  |    └─index.html  
+|  ├─themes
+|  |    ├─global.scss  
+|  |    └─utils.scss  
+|  ├─utils
+├─webpack
+|  ├─.babelrc
+|  ├─.gitignore
+|  ├─package.json
+|  └─README.md

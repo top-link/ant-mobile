@@ -2,8 +2,6 @@ import React from 'react'
 import actionCreators from '../redux/actions'
 import connect from 'react-redux/lib/components/connect'
 
-import { Button, Icon } from 'antd-mobile'
-
 import 'themes/global'
 
 @connect(
